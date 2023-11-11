@@ -1,0 +1,11 @@
+{
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "deno.enablePaths": [
+    "./netlify/edge-functions",
+  ],
+  "deno.importMap": "./.netlify/edge-functions-import-map.json"
+}
